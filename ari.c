@@ -1,3 +1,5 @@
+#include <ctype.h>
+
 string ari(string s){
   char *t = s;
   int character = 0;
