@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
+#include <math.h>
 
 string ari(string s){
   char *t = s;
@@ -12,7 +13,7 @@ string ari(string s){
   char *grade[]={"Kindergarten","First/Second Grade","Third Grade","Fourth Grade","Fifth Grade","Sixth Grade","Seventh Grade","Eighth Grade","Ninth Grade","Tenth Grade","Eleventh Grade","Twelfth grade","College student","Professor"};
   
   for(; *t != '\0' ; t++){
-    if(isalnum(*t){
+    if(isalnum(*t)){
       character++;
     }
     if(*t == ' '){
