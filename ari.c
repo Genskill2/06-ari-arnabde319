@@ -9,7 +9,7 @@ string ari(string s){
   int character = 0;
   int word = 0;
   int sentence = 0;
-  float score = 0.0;
+  int score = 0;
   char *grade[]={"Kindergarten","First/Second Grade","Third Grade","Fourth Grade","Fifth Grade","Sixth Grade","Seventh Grade","Eighth Grade","Ninth Grade","Tenth Grade","Eleventh Grade","Twelfth grade","College student","Professor"};
   
   for(; *t != '\0' ; t++){
