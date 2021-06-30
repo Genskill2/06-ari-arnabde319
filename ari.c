@@ -18,5 +18,5 @@ string ari(string s){
     }
   }
   score=ceil(4.71*((float)character/word)+0.5*((float)word/sentence)-21.43);
-  return *grade[score+1];
+  return grade[score-1];
 }
